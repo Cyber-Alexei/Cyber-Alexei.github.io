@@ -20,7 +20,15 @@
     .main-div {
         background-image: url('./Public/Img/Image14.jpg'); 
     }
-       
+
+    .divSummary {
+        width: 90%;
+    }
+
+    .divCoursesUL {
+        width: 90%;
+    }
+
 }
 
 @media screen and (min-width: 400px) {
@@ -45,6 +53,16 @@
     .main-div {
         background-image: url('./Public/Img/Image14.jpg'); 
     }
+
+    .divSummary {
+        width: 90%;
+    }
+
+    .divCoursesUL {
+        width: 90%;
+    }
+
+
 }
 
 @media screen and (min-width: 700px) {
@@ -69,6 +87,15 @@
     .main-div {
         background-image: url('./Public/Img/Image14.jpg'); 
     }
+
+    .divSummary {
+        width: 90%;
+    }
+
+    .divCoursesUL {
+        width: 90%;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -92,6 +119,14 @@
 
     .main-div {
         background-image: url('./Public/Img/Image8.jpg'); 
+    }
+
+    .divSummary {
+        width: 70%;
+    }
+
+    .divCoursesUL {
+        width: 60%;
     }
 
 }
@@ -130,14 +165,13 @@ div {
     color: white;
 }
 
+
 #title {
     color: white !important;
 }
 
 .divh2 {
-    position: relative;
     height: 50px;
-    padding: 10px;
     border-radius: 10px;
 }
 
@@ -266,7 +300,6 @@ div {
     height: auto;
     width: auto;
     margin: 50px 0;
-    padding: 10px;
     border-radius: 10px;
     background-color: rgb(0, 0, 0);
     background-size: cover;
@@ -417,6 +450,92 @@ div {
     span {
         font-size: 30px;
         font-family: "Caveat", cursive;
+    }
+}
+
+.cv {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.coursesUL {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    
+    .coursesLI {
+        padding: 20px;
+        min-width: 290px;
+        background-color: rgb(197, 153, 8);
+        border-radius: 10px;
+        border: 1px solid white;
+    
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: rgb(182, 141, 8);
+        }
+    }
+}
+
+.divSummary {
+    margin: 50px 0px 100px 0px;
+}
+
+.divCourses {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-image: url('./Public/Img/Image15.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.divSkills {
+    padding: 100px 0;
+
+    h2 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.divCoursesUL {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        color: black;
+        padding: 2px 10px;
+        border-radius: 10px;
+        width: 100%;
+        text-align: left;
+        
+
+        margin-bottom: 30px;
     }
 }
 

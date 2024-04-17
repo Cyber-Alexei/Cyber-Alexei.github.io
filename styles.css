@@ -95,7 +95,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: white !important;
     font-size: 30px;
     letter-spacing: 8px;
     word-spacing: 6px;
@@ -112,6 +112,10 @@ h2 {
 
 div {
     color: white;
+}
+
+#title {
+    color: white !important;
 }
 
 .divh2 {

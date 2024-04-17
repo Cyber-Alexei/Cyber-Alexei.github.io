@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const welcome = document.querySelector('.welcome')
 
     title.style.opacity = '1';
-    title.style.marginRight = '0px';
 
     setTimeout(() => {
         welcome.style.opacity = '1';

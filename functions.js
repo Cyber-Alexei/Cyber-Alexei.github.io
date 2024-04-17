@@ -1,6 +1,6 @@
 import {data} from "./data.js";
 
-/*document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const title = document.querySelector('#title');
     const welcome = document.querySelector('.welcome')
 
@@ -11,7 +11,7 @@ import {data} from "./data.js";
         welcome.style.opacity = '1';
     }, 2000)
 
-})*/
+})
 
 const divForProjects = document.querySelector('.projects');
 

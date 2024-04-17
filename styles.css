@@ -16,6 +16,10 @@
     .presentation-div {
         width: calc(90% - 20px);
     }
+
+    .main-div {
+        background-image: url('./Public/Img/Image14.jpg'); 
+    }
        
 }
 
@@ -37,6 +41,10 @@
     .presentation-div {
         width: calc(90% - 20px);
     }
+
+    .main-div {
+        background-image: url('./Public/Img/Image14.jpg'); 
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -57,6 +65,10 @@
     .presentation-div {
         width: calc(90% - 20px);
     }
+
+    .main-div {
+        background-image: url('./Public/Img/Image14.jpg'); 
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -76,6 +88,10 @@
 
     .presentation-div {
         width: calc(80% - 20px);
+    }
+
+    .main-div {
+        background-image: url('./Public/Img/Image8.jpg'); 
     }
 
 }
@@ -203,9 +219,9 @@ div {
     width: 100%;
     min-height: 100vh;
     height: auto;
-    background-image: url('./Public/Img/Image8.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .presentation-div {

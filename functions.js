@@ -1,10 +1,7 @@
 import {data} from "./data.js";
 
 document.addEventListener('DOMContentLoaded', () => {
-    const title = document.querySelector('#title');
     const welcome = document.querySelector('.welcome')
-
-    title.style.opacity = '1';
 
     setTimeout(() => {
         welcome.style.opacity = '1';

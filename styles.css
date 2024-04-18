@@ -6,6 +6,7 @@
         margin: 0;
         padding: 0;
         border-radius: 10px;
+        color: white;
     }
 
     .div-2 {
@@ -33,6 +34,10 @@
         background-image: url('./Public/Img/Image16.jpg');
     }
 
+    .portfolio {
+        color: white;
+    }
+
 }
 
 @media screen and (min-width: 400px) {
@@ -43,6 +48,7 @@
         margin: 0;
         padding: 0;
         border-radius: 10px;
+        color: white;
     }
 
     .div-2 {
@@ -70,6 +76,10 @@
         background-image: url('./Public/Img/Image16.jpg');
     }
 
+    .portfolio {
+        color: white;
+    }
+
 }
 
 @media screen and (min-width: 700px) {
@@ -80,6 +90,7 @@
         margin: 0;
         padding: 0;
         border-radius: 10px;
+        color: white;
     }
 
     .div-2 {
@@ -107,6 +118,10 @@
         background-image: url('./Public/Img/Image15.jpg');
     }
 
+    .portfolio {
+        color: white;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -117,6 +132,7 @@
         margin: 0;
         padding: 0;
         border-radius: 10px;
+        color: rgb(0, 0, 0);
     }
 
     .div-2 {
@@ -144,6 +160,10 @@
         background-image: url('./Public/Img/Image15.jpg');
     }
 
+    .portfolio {
+        color: rgb(0, 0, 0);
+    }
+
 }
 
 
@@ -161,7 +181,6 @@ body {
 }
 
 h1 {
-    color: white !important;
     font-size: 30px;
     letter-spacing: 8px;
     word-spacing: 6px;
@@ -181,13 +200,10 @@ div {
 }
 
 
-#title {
-    color: white !important;
-}
-
 .divh2 {
     height: 50px;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .div-1 {
@@ -338,7 +354,6 @@ div {
 
 .portfolio {
     margin-top: 5px;
-    color: rgb(255, 255, 255);
     letter-spacing: 10px;
     margin: 0;
     padding: 0;
@@ -396,8 +411,8 @@ div {
     letter-spacing: 1.5px;
     word-spacing: 1px;
     line-height: 1.5em;
-    padding: 5px;
     border-radius: 10px;
+    padding: 5px;
 }
 
 
